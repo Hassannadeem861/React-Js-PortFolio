@@ -1,0 +1,70 @@
+div .header{
+    height: 100vh;
+    padding-top: 7rem;
+    /* color: aliceblue; */
+    /* margin-left: 1em; */
+    /* overflow: hidden; */
+}
+
+.header_container{
+     text-align: center;
+     height: 130%;
+     position: relative;
+}
+
+/* CV */
+div .cta{
+    margin-top: 0.5em;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/* .social_links{
+    font-size: 1em;
+} */
+
+/* Social Link */
+div .social_links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8em;
+  position: absolute;
+  left: 5em;
+  bottom: 3rem;
+}
+
+.social_links::after{
+    margin-left: -0.5em;
+    content: '';
+    width: 3px;
+    height: 4rem;
+    background-color: black;
+}
+
+/* Image */
+div .img{
+    /* background: linear-gradient(var(--color-primary),transparent); */
+    background-color: #9fcefb;
+    /* width: 22rem; */
+    height: 30rem;
+    /* position: absolute; */
+    /* left: calc   (50% - 11rem); */
+    margin-top: 2em;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
+}
+
+.scroll_down{
+
+    position: absolute;
+    /* top: -1px; */
+    right: 5.9em;
+    /* margin-top: 3em; */
+    margin-right: 5em;
+    bottom: 13rem;
+    transform: rotate(90deg);
+    font-weight: 800;
+    font-size: 1em;
+}
